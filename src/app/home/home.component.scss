@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Reenie+Beanie|Josefin+Sans');
+
+body {
+  padding-top: 5rem;
+}
+.HomeContainer {
+  padding: 3rem 1.5rem;
+  text-align: center;
+}
+
+.firstPage{
+  padding-top: 25%;
+  background-color: #b2ccf7;
+}
+
+.font{
+  font-size:35px;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.firstPage h1{
+  font-family: 'Love Ya Like A Sister', cursive;
+  font-size: 70px;
+  padding-bottom: 20px;
+	-webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+}
+
+.firstPage p{
+  font-family: 'Reenie Beanie', cursive;
+  font-size: 50px;
+}
+
+.secondPage{
+  padding-top: 15%;
+  background-color: #d8ffdc;
+}
+
+.thirdPage{
+  padding-top: 15%;
+  background-color: #c9cacc;
+}

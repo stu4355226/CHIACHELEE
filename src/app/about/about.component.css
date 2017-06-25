@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Gafata');
+
+.backgroundImage{
+    width: 100%;
+    height: 400px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    overflow: hidden;
+    display: block;
+    z-index: -1;
+    max-height: 400px;
+    margin-bottom: -40px;
+}
+
+.font{
+        word-spacing: 3px;
+
+    font-family: 'Gafata', sans-serif;
+}
+
+.aboutMe{
+    background-color: #f6f6f6;
+}
+
+.aboutMe .container {
+    padding-top: 20px;
+    display: block;
+    margin: -50px auto 0;
+    /*margin-bottom: -150px;*/
+    max-width: 788px;
+    background-color: white;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    z-index: 1;
+    position: relative;
+    margin-bottom: 55px;
+}
+
+.title{
+    font-family: 'Love Ya Like A Sister', cursive;
+    text-align: center; 
+    font-size: 55px;
+    /*border-style:solid;
+    border-color: black;
+    border-radius: 50px;*/
+    padding: 25px;
+}
+
+.bulletSection{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.selfExplanationSeciton{
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.divider{
+    margin: 16px auto;
+    height: 2px;
+    background: black;
+    width: 50%;
+}
+
+.animated .divider{
+        background: gray;
+
+}

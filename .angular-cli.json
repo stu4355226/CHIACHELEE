@@ -19,14 +19,23 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../node_modules/tether/dist/css/tether.min.css",
+        "../node_modules/bootstrap/dist/css/bootstrap.css",
+        "../node_modules/animate.css/animate.min.css"
       ],
-      "scripts": [],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
         "prod": "environments/environment.prod.ts"
-      }
+      },
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.js",
+        "../node_modules/fullpage.js/dist/jquery.fullpage.js",
+        "../node_modules/tether/dist/js/tether.min.js",
+        "../node_modules/bootstrap/dist/js/bootstrap.js",
+        "../node_modules/waypoints/src/waypoint.js"
+      ]
     }
   ],
   "e2e": {

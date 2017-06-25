@@ -21,8 +21,15 @@
     "@angular/platform-browser": "^4.0.0",
     "@angular/platform-browser-dynamic": "^4.0.0",
     "@angular/router": "^4.0.0",
+    "angular2-font-picker": "^2.1.1",
+    "animate.css": "^3.5.2",
+    "bootstrap": "^4.0.0-alpha.6",
     "core-js": "^2.4.1",
+    "font-awesome": "^4.7.0",
+    "jquery": "^3.2.1",
+    "ngx-fullpage": "^4.0.6",
     "rxjs": "^5.1.0",
+    "waypoints": "^4.0.1",
     "zone.js": "^0.8.4"
   },
   "devDependencies": {

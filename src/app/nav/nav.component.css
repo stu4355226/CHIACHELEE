@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+.navbar{
+    opacity: 0.8;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    font-weight: 900;
+    /*padding-bottom: 30px;*/
+}
