@@ -1,69 +1,112 @@
 @import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Gafata');
+h2 {
+    word-spacing: 3px;
+    font-family: 'Love Ya Like A Sister', cursive;
+    border: width border-style color;
+}
 
-.backgroundImage{
+.backgroundImage {
     width: 100%;
-    height: 400px;
+    height: 500px;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     overflow: hidden;
     display: block;
     z-index: -1;
-    max-height: 400px;
+    /*max-height: 450px;*/
     margin-bottom: -40px;
 }
 
-.font{
-        word-spacing: 3px;
+ul {
+    color: #666;
+    list-style: square;
+    padding: 0;
+    margin-left: 20px;
+}
 
+.font {
+    word-spacing: 3px;
     font-family: 'Gafata', sans-serif;
 }
 
-.aboutMe{
+.aboutMe {
     background-color: #f6f6f6;
 }
 
 .aboutMe .container {
     padding-top: 20px;
     display: block;
-    margin: -50px auto 0;
+    margin: -150px auto 0;
     /*margin-bottom: -150px;*/
     max-width: 788px;
     background-color: white;
-    box-shadow: 0 2px 2px 0 rgba(0,0,0,.14), 0 3px 1px -2px rgba(0,0,0,.2), 0 1px 5px 0 rgba(0,0,0,.12);
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
     z-index: 1;
     position: relative;
     margin-bottom: 55px;
 }
 
-.title{
+.title {
     font-family: 'Love Ya Like A Sister', cursive;
-    text-align: center; 
-    font-size: 55px;
+    text-align: center;
+    font-size: 75px;
     /*border-style:solid;
     border-color: black;
     border-radius: 50px;*/
     padding: 25px;
 }
 
-.bulletSection{
+.bulletSection {
     padding-top: 30px;
     padding-bottom: 20px;
 }
 
-.selfExplanationSeciton{
+.selfExplanationSeciton {
     padding-top: 30px;
     padding-bottom: 20px;
 }
 
-.divider{
+.divider {
     margin: 16px auto;
     height: 2px;
-    background: black;
+    background: gray;
     width: 50%;
+    border-radius: 40%;
 }
 
-.animated .divider{
-        background: gray;
+.animated .divider {
+    background: gray;
+}
 
+.content {
+    margin-top: 20px;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#googleMap {
+    width: 100%;
+    height: 350px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 2px 6px 0 rgba(0, 0, 0, .12);
+}
+
+.aboutme {
+    max-height: 250px;
+    object-fit: cover;
+    margin-bottom: 30px;
+}
+
+#collapseUs {
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-bottom: 20px;
+}
+
+#collapseBaby {
+    width: 100%;
+    padding-right: 2%;
+    padding-left: 2%;
+    margin-bottom: 20px;
 }

@@ -4,7 +4,7 @@ import { NavComponent } from './../nav/nav.component';
 import { HomeComponent } from './../home/home.component';
 import { NotfoundComponent } from './../notfound/notfound.component';
 import { AboutComponent } from './../about/about.component';
-import { ArticleComponent } from './../article/article.component';
+import { ResumeComponent } from './../resume/resume.component';
 
 const routes: Routes = [
     {
@@ -17,12 +17,12 @@ const routes: Routes = [
         component: HomeComponent
     },
     {
-        path:'About',
+        path: 'About',
         component: AboutComponent
     },
     {
-        path: 'Article',
-        component: ArticleComponent
+        path: 'Resume',
+        component: ResumeComponent
     },
     {
         path: 'Notfound',

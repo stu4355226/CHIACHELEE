@@ -11,7 +11,9 @@ import { AboutComponent } from './about/about.component';
 import { AppRoutingModule } from './app-routing/app-routing.module';
 //packages
 import { MnFullpageModule } from "ngx-fullpage";
-import { ArticleComponent } from './article/article.component';
+
+import { AgmCoreModule } from '@agm/core';
+import { ResumeComponent } from './resume/resume.component';
 
   //Google API key 
   // apiKey: 'AIzaSyCYdJ0VUe4esIb9X-lVb3qaeN5373Ru_W8'
@@ -26,12 +28,15 @@ import { ArticleComponent } from './article/article.component';
     HomeComponent,
     NotfoundComponent,
     AboutComponent,
-    ArticleComponent
+    ResumeComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MnFullpageModule.forRoot() // FullPage
+    MnFullpageModule.forRoot(), // FullPage
+     AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCYdJ0VUe4esIb9X-lVb3qaeN5373Ru_W8'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
