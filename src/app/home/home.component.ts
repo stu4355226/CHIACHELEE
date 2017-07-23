@@ -18,6 +18,9 @@ export class HomeComponent implements OnInit {
     if (typeof $.fn.fullpage.destroy == 'function') {
       $.fn.fullpage.destroy('all');
     }
+    //Tooltip
+    $('[data-toggle="tooltip"]').tooltip(); 
+
     //footer settings
     if($('footer').hasClass('footer'))
     {

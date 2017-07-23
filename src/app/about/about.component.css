@@ -5,6 +5,10 @@ h2 {
     border: width border-style color;
 }
 
+.hidden {
+    visibility: hidden
+}
+
 .backgroundImage {
     width: 100%;
     height: 500px;

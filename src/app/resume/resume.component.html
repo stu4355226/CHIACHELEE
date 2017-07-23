@@ -1,8 +1,8 @@
 <body>
     <div class="container resume">
         <div class="row">
-            <img class="col-4 aboutmePicture" src="assets/img/aboutme/me-aboutme.jpg">
-            <div class="col align-self-center">
+            <img class="col-4 aboutmePicture animated fadeInLeft" src="assets/img/aboutme/me-aboutme.jpg">
+            <div class="col align-self-center animated fadeInDown">
                 <p><b class="titleName">CHIA-CHE LEE</b></p>
                 <p>CE professional with 2 years experience of Web full-stack development.</p>
                 <div class="titleText">
@@ -18,7 +18,7 @@
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row animated fadeInUp">
             <div class="col-12">
                 <p class="font-2 font-weight-bold">Education</p>
             </div>
@@ -30,7 +30,7 @@
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row hidden animated" [appScrollPoint]="400">
             <div class="col-12">
                 <p class="font-2 font-weight-bold">Skills</p>
             </div>
@@ -72,7 +72,7 @@
                 </ul>
             </div>
         </div>
-        <div class="row">
+        <div class="row hidden animated" [appScrollPoint]="650">
             <div class="col-6">
                 <div class="divider"></div>
                 <p class="font-1 font-weight-bold">Version Control</p>
@@ -95,7 +95,7 @@
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row hidden animated" [appScrollPoint]="1000">
             <div class="col-12">
                 <p class="font-2 font-weight-bold">Experience</p>
                 <!-- Timeline -->
@@ -119,7 +119,7 @@
                                 <li>Designed and Implemented Performance matrix Tool using C#, Azure Function to test server API performance.</li>
                                 <li>Re-Factory server applications to obtain better performance by over 20%.</li>
                                 <li>Dedicate three months in Orchard Program in Dot.NET technical training at MindTree Global Learning Centre.</li>
-                                <li> - Attended sprint planning sessions and daily sprint stand-up meetings.</li>
+                                <li>Attended sprint planning sessions and daily sprint stand-up meetings.</li>
                             </ul>
                         </div>
                     </article>
@@ -151,7 +151,7 @@
             </div>
         </div>
         <hr>
-        <div class="row">
+        <div class="row hidden animated" [appScrollPoint]="2000">
             <div class="col-12">
                 <p class="font-2 font-weight-bold">School Porjects</p>
                 <!-- Timeline -->
@@ -183,7 +183,10 @@
                             <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
                         </div>
                         <div class="panel-body">
-                            <p><strong class="font-1">FPGA based Median Filter Engine (DSP)</strong> - using VHDL</p>
+                            <p>
+                                <a href="https://github.com/stu4355226/FPGA_based_Median_Filter_Engine" data-toggle="tooltip" data-placement="bottom" title="Click me for more info!"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                                <strong class="font-1">FPGA based Median Filter Engine (DSP)</strong> - using VHDL
+                            </p>
                             <ul>
                                 <li>The median filter is an effective device for the removal of impulse-based noise on video signals. This is due to the partial averaging effect of the median filter and its biasing of the input stream, rather than straight
                                     mathematical averaging. This project aims DSP applications as a goal and implements in VHDL and uses Pingpong and Pipeline techniques on data processing.</li>
@@ -199,7 +202,10 @@
                             <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
                         </div>
                         <div class="panel-body">
-                            <p><strong class="font-1">Speech Enhancement</strong> - using Matlab</p>
+                            <p>
+                                <a href="https://github.com/stu4355226/Speech_Enhancement" data-toggle="tooltip" data-placement="bottom" title="Click me for more info!"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                                <strong class="font-1">Speech Enhancement</strong> - using Matlab
+                            </p>
                             <ul>
                                 <li>The goal is to analyze a voice that is before adding noise, after adding noise and after 4 different types of filters.</li>
                                 <li>This project is about using FIR, IIR, Wiener ans Wavelet filters to process speech signal in Matlab. Then compare the results of each filters.</li>
@@ -215,7 +221,10 @@
                             <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
                         </div>
                         <div class="panel-body">
-                            <p><strong class="font-1">FSM based UART Protocol</strong> - using VHDL</p>
+                            <p>
+                                <a href="https://github.com/stu4355226/FSM_based_UART_Protocol" data-toggle="tooltip" data-placement="bottom" title="Click me for more info!"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                                <strong class="font-1">FSM based UART Protocol</strong> - using VHDL
+                            </p>
                             <ul>
                                 <li>FSM based UART Protocol using VHDL on Xilinx Zynq - 7000 SoC (Zedboard). In general cases, UART will use two FIFO buffers to store and send the queuing data, I'm using only a FIFO as a buffer sending data between TX(Sender)
                                     and Rx(Receiver) and a FSM to control the FIFO whenever to send or store the queuing data.</li>
@@ -231,7 +240,10 @@
                             <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
                         </div>
                         <div class="panel-body">
-                            <p><strong class="font-1">Multithreading Analysis for 3-D Fast Fourier Transform</strong> - using C / CUDA</p>
+                            <p>
+                                <a href="https://github.com/stu4355226/3-D_FFT_CUDA" data-toggle="tooltip" data-placement="bottom" title="Click me for more info!"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                                <strong class="font-1">Multithreading Analysis for 3-D Fast Fourier Transform</strong> - using C / CUDA
+                            </p>
                             <ul>
                                 <li>This project is using CUDA and C languages to implement 3D Fast Fourier Transform and 3D inverse Fast Fourier Transform algorithm.</li>
                                 <li>The goal is comparing the execution time and analysis the advantages and disadvantages of using CUDA on multithreading computing.</li>
@@ -247,7 +259,10 @@
                             <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
                         </div>
                         <div class="panel-body">
-                            <p><strong class="font-1">Sliding Window Protocol</strong> - September 2014</p>
+                            <p>
+                                <a href="https://github.com/stu4355226/Sliding_Window_Protocol" data-toggle="tooltip" data-placement="bottom" title="Click me for more info!"><i class="fa fa-github fa-2x" aria-hidden="true"></i></a>
+                                <strong class="font-1">Sliding Window Protocol</strong> - using Python
+                            </p>
                             <ul>
                                 <li>Sliding Window Protocol Written in Python.</li>
                             </ul>

@@ -10,10 +10,11 @@ import { AboutComponent } from './about/about.component';
 //routing
 import { AppRoutingModule } from './app-routing/app-routing.module';
 //packages
-import { MnFullpageModule } from "ngx-fullpage";
+import { MnFullpageModule } from 'ngx-fullpage';
 
 import { AgmCoreModule } from '@agm/core';
 import { ResumeComponent } from './resume/resume.component';
+import { ScrollPointDirective } from './scroll-point.directive';
 
   //Google API key 
   // apiKey: 'AIzaSyCYdJ0VUe4esIb9X-lVb3qaeN5373Ru_W8'
@@ -28,7 +29,8 @@ import { ResumeComponent } from './resume/resume.component';
     HomeComponent,
     NotfoundComponent,
     AboutComponent,
-    ResumeComponent
+    ResumeComponent,
+    ScrollPointDirective
   ],
   imports: [
     BrowserModule,

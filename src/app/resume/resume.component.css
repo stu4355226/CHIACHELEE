@@ -3,9 +3,14 @@ body {
     padding-top: 5rem;
 }
 
+.hidden {
+    visibility: hidden
+}
+
 body .container {
     background-color: white;
     z-index: 1;
+    margin-bottom: 50px;
 }
 
 .aboutmePicture {
@@ -86,7 +91,7 @@ ol ol {
     left: -2.5em;
     top: 50%;
     margin-top: -1em;
-    background: #87ceeb;
+    background: #cdddf7;
     height: 2em;
     width: 2em;
     line-height: 2em;
@@ -106,7 +111,7 @@ ol ol {
 
 .rectangle-list li:hover:after {
     left: -.5em;
-    border-left-color: #87ceeb;
+    border-left-color: #cdddf7;
 }
 
 .font-1 {

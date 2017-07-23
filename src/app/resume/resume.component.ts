@@ -15,6 +15,10 @@ export class ResumeComponent implements OnInit {
       $.fn.fullpage.destroy('all');
     }
 
+    // tooltip
+    $('[data-toggle="tooltip"]').tooltip(); 
+
+
     if ($('footer').attr('class') == "footer") {
       $('footer').removeClass("footer");
       $('footer').addClass("footerHome");
