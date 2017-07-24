@@ -38,7 +38,17 @@ ul {
     background-color: #f6f6f6;
 }
 
-.aboutMe .container {
+.picture {
+    position: relative;
+    max-height: 250px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    margin-bottom: 30px;
+    text-align: centre;
+    overflow: hidden;
+}
+
+.container {
     padding-top: 20px;
     display: block;
     margin: -150px auto 0;
