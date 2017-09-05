@@ -1,4 +1,56 @@
-@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Reenie+Beanie|Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister|Reenie+Beanie|Josefin+Sans|Gafata');
+
+/*main*/
+
+body {
+    animation: fadein 2s;
+    -moz-animation: fadein 2s;
+    /* Firefox */
+    -webkit-animation: fadein 2s;
+    /* Safari and Chrome */
+    -o-animation: fadein 2s;
+    /* Opera */
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes fadein {
+    /* Firefox */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes fadein {
+    /* Safari and Chrome */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@-o-keyframes fadein {
+    /* Opera */
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
 .HomeContainer {
     // height: 100%;
     text-align: center;
@@ -39,7 +91,7 @@
 
 .font {
     font-size: 35px;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Gafata', sans-serif;
 }
 
 .firstPage h1 {
@@ -121,7 +173,7 @@ image {
     overflow: hidden;
     width: 300px;
     height: 0;
-    transition: .5s ease;
+    transition: .2s ease;
 }
 
 .slideLeft:hover .overlay2 {
@@ -140,7 +192,7 @@ image {
     width: 0;
     height: 100%;
     max-width: 300px;
-    transition: .5s ease;
+    transition: .2s ease;
 }
 
 .overlay2 .text {
@@ -168,7 +220,7 @@ image {
     overflow: hidden;
     width: 300px;
     height: 0;
-    transition: .5s ease;
+    transition: .2s ease;
 }
 
 .overlay3 .text {
@@ -199,7 +251,7 @@ image {
     overflow: hidden;
     width: 300px;
     height: 0;
-    transition: .5s ease;
+    transition: .2s ease;
 }
 
 .overlay4 .text {
@@ -230,7 +282,7 @@ image {
     overflow: hidden;
     width: 300px;
     height: 0;
-    transition: .5s ease;
+    transition: .2s ease;
 }
 
 .overlay5 .text {
@@ -263,7 +315,7 @@ image {
     width: 0;
     height: 100%;
     max-width: 300px;
-    transition: .5s ease;
+    transition: .2s ease;
 }
 
 .overlay6 .text {

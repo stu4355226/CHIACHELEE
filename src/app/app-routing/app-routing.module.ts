@@ -27,6 +27,10 @@ const routes: Routes = [
     {
         path: 'Notfound',
         component: NotfoundComponent
+    },
+    {
+        path: '**',
+        redirectTo: 'Home',
     }
 ];
 

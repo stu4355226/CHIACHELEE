@@ -12,7 +12,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
 //packages
 import { MnFullpageModule } from 'ngx-fullpage';
 
-import { AgmCoreModule } from '@agm/core';
+//import { AgmCoreModule } from '@agm/core';
 import { ResumeComponent } from './resume/resume.component';
 import { ScrollPointDirective } from './scroll-point.directive';
 
@@ -35,10 +35,10 @@ import { ScrollPointDirective } from './scroll-point.directive';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MnFullpageModule.forRoot(), // FullPage
-     AgmCoreModule.forRoot({
-      apiKey: 'AIzaSyCYdJ0VUe4esIb9X-lVb3qaeN5373Ru_W8'
-    })
+    MnFullpageModule.forRoot() // FullPage
+  //   AgmCoreModule.forRoot({
+   //   apiKey: 'AIzaSyCYdJ0VUe4esIb9X-lVb3qaeN5373Ru_W8'
+   // })
   ],
   providers: [],
   bootstrap: [AppComponent]
